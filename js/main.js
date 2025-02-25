@@ -24,14 +24,14 @@ let seniorPrice = price - (price * 40 / 100);
 
 if (age < 18) {
     let finalPrice = parseInt(distance) * youngPrice;
-    console.log(finalPrice.toFixed(2));
+    console.log(`Il prezzo finale del tuo biglietto è ${finalPrice.toFixed(2)}£`);
 }
 else if (age > 65) {
     let finalPrice = parseInt(distance) * seniorPrice;
-    console.log(finalPrice.toFixed(2));
+    console.log(`Il prezzo finale del tuo biglietto è ${finalPrice.toFixed(2)}£`);
 }
 else {
     let finalPrice = parseInt(distance) * price;
-    console.log(finalPrice.toFixed(2));
+    console.log(`Il prezzo finale del tuo biglietto è ${finalPrice.toFixed(2)}£`);
 }
 
